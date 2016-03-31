@@ -5,12 +5,6 @@
  * Date: 3/30/2016
  * Time: 11:10 PM
  */
-
-
-$txt = 'Your profile has been registered with gharvasao.com. Please contact +(91)-8699126126,+(91)-8556994553';
-$txt = urlencode($txt);
-$response = file_get_contents("http://103.27.87.89/send.php?usr=3106&pwd=123456&ph=8591468789&sndr=AxisIn&text=$txt");
-exit;
 $cssstyle = '';
 
 // setting margin
