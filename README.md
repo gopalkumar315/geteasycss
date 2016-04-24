@@ -17,23 +17,23 @@ Normalize.css Provide the functionality regarding:
 How to use:
 
 1. Margin
-    * Margin Auto use class => m-auto
-    * Margin on all sides use class => m-10 // all side margin 10px eg. m-50 // all side margin 50px
+    * Margin Auto use class => m-auto 
+    * Margin on all sides use class => m-10 // all sides margin 10px eg. m-50 // all sides margin 50px // range 0 to 100
     * Margin top and bottom use class => mtb-50 // margin on top and bottom 50px
-    * Margin left and right use class => mtb-30 // margin on left and right 50px
-    * Margin Top use class => mt-20 // margin on top 20px
+    * Margin left and right use class => mlr-30 // margin on left and right 30px
+    * Margin top use class => mt-20 // margin on top 20px
     * Margin left use class => ml-10 // margin on left 10px
     * Margin right use class => mr-10 // margin on right 10px
     * Margin bottom use class => mb-10 // margin on bottom 10px
     
 2. Padding    
-    * Padding on all sides use class => p-10 // all side padding 10px eg. p-50 // all side padding 50px
+    * Padding on all sides use class => p-10 // all sides padding 10px eg. p-50 // all sides padding 50px //range 0 to 100
     * Padding top and bottom use class => ptb-50 // padding on top and bottom 50px
-    * Padding left and right use class => ptb-30 // padding on left and right 50px
+    * Padding left and right use class => plr-30 // padding on left and right 30px
     * Padding Top use class => pt-20 // padding on top 20px
-    * Padding left use class => ml-10 // padding on left 10px
-    * Padding right use class => mr-10 // padding on right 10px
-    * Padding bottom use class => mb-10 // padding on bottom 10px
+    * Padding left use class => pl-10 // padding on left 10px
+    * Padding right use class => pr-10 // padding on right 10px
+    * Padding bottom use class => pb-10 // padding on bottom 10px
 
 3. Div    
     * Display Block use class => d-b // for display block
@@ -43,14 +43,14 @@ How to use:
 4. Width, Height
     * For width in pixel use class => w-20px // width 20px // range 0 to 250
     * For height in pixel use class => h-50px // height 50px // range 0 to 250
-    * For Width in percentage (%) use class => w-50pc // width 50pc  // range 0 to 100
-    * For height in percentage (%) use class => h-50pc // height 50pc  // range 0 to 100
+    * For width in percentage(%) use class => w-50pc // width 50%  // range 0 to 100
+    * For height in percentage(%) use class => h-50pc // height 50%  // range 0 to 100
 
 5. Font
-    * For Font size use class => fz-12 // font size: 12px // range 0 to 100
-    * For Font weight normal use class => fw-n 
-    * For Font weight bold use class => fw-b
-    * For Font weight light use class => fw-l
+    * For font size use class => fz-12 // font size: 12px // range 0 to 100
+    * For font weight normal use class => fw-n 
+    * For font weight bold use class => fw-b
+    * For font weight light use class => fw-l
 
 6. Radius
     * For radius on all four sides use class => r-10 // radius all four sides is 10px // range is 0 to 50
